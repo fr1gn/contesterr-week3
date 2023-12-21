@@ -2,7 +2,7 @@ package port;
 import java.util.ArrayList;
 
 public class Shape {
-    private ArrayList<Point> points;
+    private ArrayList<Point> points = new ArrayList<>();
 
     public Shape() {
         this.points = points;
