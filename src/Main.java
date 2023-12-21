@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        String filePath = "C:\\Users\\admin\\IdeaProjects\\AssignmentOne\\src\\numbers.txt";
+        String filePath = "numbers.txt";
         Shape shape = new Shape();
 
         Scanner scanner = new Scanner(new File(filePath));
