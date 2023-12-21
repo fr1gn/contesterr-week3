@@ -22,4 +22,7 @@ public class Point {
 
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
+    public String toString() {
+        return "(" + x + ", " + y + ")";
+    }
 }
